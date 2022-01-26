@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ff7a7a;
+  background-image: url(/images/bg-intro-desktop.png);
+}
+.contenedor {
+  place-content: center;
+  place-items: center;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(2, minmax(100px, 550px));
+  grid-template-rows: 650px;
+}
+.titulo {
+  line-height: 1.1;
+  margin: 0px 130px 20px 0px;
+  text-align: initial;
+  color: #fff;
+}
+.parrafo {
+  margin: 0px 58px 0px 0px;
+  font-size: 16px;
+  text-align: initial;
+  color: #fff;
+}
+.izq {
+  justify-items: end;
+  align-items: start;
+}
+.blanco {
+  background-color: aliceblue;
+  height: 305px;
+  width: 362px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px #2c2c2c;
+  padding: 26px;
+}
+.boton2 {
+  margin: 10px 0px 0px;
+  background-color: #38cc8c;
+  color: #fff;
+  border: #31ad77 solid 1px;
+  border-radius: 2px;
+  width: 347px;
+  height: 44px;
+  font-size: 13px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.boton2:hover {
+  background-color: #2b9667;
+}
+.in {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  border: solid 1px #b9b6d3;
+  margin: 10px 0px 0px;
+  border-radius: 5px;
+  width: 304px;
+  height: 3px;
+}
+.in:focus {
+  outline: none !important;
+  background: #ff7a7a;
+  color: rgb(255, 255, 255);
+  border: 2px solid #772323;
+  border-radius: 50px;
+}
+.in:hover {
+  border-color: #ff7a7a;
+}
+.gru {
+  font-weight: bold;
+  font-size: 14px;
+}
+.butun {
+  font-size: 12px;
+}
+.boton1 {
+  background-color: #6055a5;
+  color: #fff;
+  border: #4f4688 solid 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 414px;
+  margin: 0px 0px 20px 0px;
+  box-shadow: 0px 4px 6px #2c2c2c;
+}
+.boton1:hover {
+  background-color: #383261;
+}
+.termin {
+  text-align: center;
+  font-size: 8px;
+  font-weight: 400;
+  color: #505050;
+}
+.final {
+  color: #ff7a7a;
+  font-weight: bold;
+  font-size: 8px;
+}
+@media (max-width: 460px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ff7a7a;
+    background-image: url(/images/bg-intro-mobile.png);
+  }
+  .contenedor {
+    place-content: center;
+    place-items: center;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(1, 350px);
+    grid-template-rows: 379px;
+  }
+  .titulo {
+    font-size: 26px;
+    margin: 21px;
+    line-height: 1.3;
+    text-align: center;
+    color: #fff;
+  }
+  .parrafo {
+    margin: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+  }
+  .izq {
+    justify-items: end;
+    align-items: start;
+  }
+  .blanco {
+    background-color: aliceblue;
+    height: 420px;
+    width: 314px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px #2c2c2c;
+    padding: 10px;
+  }
+  .boton2 {
+    margin: 20px 0px 0px;
+    background-color: #38cc8c;
+    color: #fff;
+    border: #31ad77 solid 1px;
+    border-radius: 2px;
+    width: 283px;
+    height: 50px;
+  }
+  .boton2:hover {
+    background-color: #2b9667;
+  }
+  .in {
+    border: solid 1px #b9b6d3;
+    margin: 20px 0px 0px;
+    border-radius: 5px;
+    width: 248px;
+    height: 11px;
+  }
+  .in:focus {
+    outline: none !important;
+    background: #ff7a7a;
+    color: rgb(255, 255, 255);
+    border: 2px solid #772323;
+    border-radius: 50px;
+  }
+  .in:hover {
+    border-color: #ff7a7a;
+  }
+  .gru {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .butun {
+    margin: 10px 50px;
+    font-size: 17px;
+  }
+  .boton1 {
+    background-color: #6055a5;
+    color: #fff;
+    border: #4f4688 solid 1px;
+    border-radius: 5px;
+    height: 95px;
+    width: 334px;
+    margin: 0px 0px 20px 0px;
+    box-shadow: 0px 4px 6px #2c2c2c;
+  }
+  .boton1:hover {
+    background-color: #383261;
+  }
+  .termin {
+    text-align: center;
+    margin: 10px 67px;
+    font-size: 9px;
+    font-weight: 400;
+    color: #505050;
+  }
+  .final {
+    color: #ff7a7a;
+    font-weight: bold;
+    font-size: 10px;
+  }
+}
